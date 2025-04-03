@@ -1,9 +1,7 @@
 import { 
-  IonButton, 
   IonButtons, 
   IonCard, 
-  IonCardContent, 
-  IonCardTitle, 
+  IonCardContent,
   IonContent, 
   IonHeader, 
   IonMenuButton, 
@@ -12,7 +10,7 @@ import {
   IonToolbar } from '@ionic/react';
 import './Home.css';
 
-const Home: React.FC = () => {
+const Page1: React.FC = () => {
 
   return (
     <>
@@ -22,20 +20,14 @@ const Home: React.FC = () => {
             <IonButtons slot="start">
               <IonMenuButton></IonMenuButton>
             </IonButtons>
-            <IonTitle>Home</IonTitle>
+            <IonTitle>Welcome to Page #1</IonTitle>
           </IonToolbar>
         </IonHeader>
         <IonContent className="ion-padding">
           <IonCard>
 
             <IonCardContent text-center>
-            <IonCardTitle>WELCOME TO APP</IonCardTitle>
-            <IonButton routerLink='/newApp/login'>
-          Login
-          </IonButton>
-          <IonButton routerLink='/newApp/register'>
-          Register
-          </IonButton>
+            <img alt="Silhouette of mountains" src="https://cataas.com/cat" />
 
           </IonCardContent>
           </IonCard>
@@ -45,4 +37,4 @@ const Home: React.FC = () => {
   );
 }
 
-export default Home;
+export default Page1;
