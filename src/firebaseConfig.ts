@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { createUserWithEmailAndPassword, getAuth, signInWithEmailAndPassword } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAjHBhHBfN263sFXOjUGKYIoLY2bQlsaoE",
+  apiKey: "",
   authDomain: "newapp-5549f.firebaseapp.com",
   projectId: "newapp-5549f",
   storageBucket: "newapp-5549f.firebasestorage.app",
